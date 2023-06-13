@@ -38,6 +38,8 @@ instances:
       control:
       analytics_database:
       analytics:
+      analytics_snmp:
+      analytics_alarm:
       webui:
 {% for control in controls %}
 {{ controller_mip.append(control.mip) }}
@@ -51,6 +53,8 @@ instances:
       config:
       control:
       analytics_database:
+      analytics_snmp:
+      analytics_alarm:
       analytics:
       webui:
 {% endfor %}
