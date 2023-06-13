@@ -11,7 +11,7 @@ This tool can be used to create pre-defined virtual topologies on a single serve
 ### 1. Clone the repository
 
 ```
-  git clone https://github.com/kirankn80/lab-in-a-server.git
+  git clone https://github.com/Jayesh-Popat/lab-in-a-server.git
 
 ``` 
 ### 2. Run installer.sh 
