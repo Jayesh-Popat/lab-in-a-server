@@ -1,7 +1,7 @@
 ---
 - name: Download kernel 3.10.0-1127
   yum:
-    name: http://tf-nexus.progmaticlab.com/repository/yum-tpc/kernel-3.10.0-1127.el7.x86_64.rpm
+    name: http://tf-nexus.englab.juniper.net/repository/yum-tpc/kernel-3.10.0-1127.el7.x86_64.rpm
     state: present
 
 - name: Reboot vm

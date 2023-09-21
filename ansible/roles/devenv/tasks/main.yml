@@ -1,7 +1,7 @@
 ---
 - name: Clone contrail-dev-env
   git:
-    repo: https://github.com/tungstenfabric/tf-dev-env.git
+    repo: https://ssd-git.juniper.net/tungstenfabric/tf-dev-env.git
     dest: /root/contrail-dev-env
     version: "master"
 
@@ -12,7 +12,7 @@
     block: |
       [contrail-tpc]
       name=Third parties for Contrail
-      baseurl=http://tf-nexus.progmaticlab.com/repository/yum-tpc/
+      baseurl=http://tf-nexus.englab.juniper.net/repository/yum-tpc/
       enabled=1
       gpgcheck=0
 
