@@ -226,7 +226,7 @@ def validate_if_contrail_image_is_present(tag, registry):
   if registry == 'nodei40':
     tag_list_uri = "http://nodei40.englab.juniper.net:5000/v2/contrail-vrouter-agent/tags/list"
   elif registry == 'cirepo':
-    tag_list_uri = "http://ci-repo.englab.juniper.net:5010/v2/contrail-vrouter-agent/tags/list"
+    tag_list_uri = "http://tf-nexus.englab.juniper.net:5001/v2/contrail-vrouter-agent/tags/list"
   else:
     return True
   tags_list = requests.get(tag_list_uri).json().get('tags')
